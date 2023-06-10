@@ -1,5 +1,3 @@
-#use it Google colab
-
 from faker import Faker
 import json
 import time
@@ -15,7 +13,5 @@ def get_user_click():
         "user_agent": fake.user_agent()
     }
 
-while True:
-    print(json.dumps(get_user_click()))
-    time.sleep(1) 
-
+def generate_data():
+    return json.dumps(get_user_click())
