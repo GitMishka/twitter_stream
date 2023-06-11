@@ -1,0 +1,15 @@
+
+
+# Real-time User Click Dashboard
+
+Welcome! This project uses Kafka, Flask, and JavaScript to create a real-time dashboard for user clicks.
+
+## How It Works
+
+1. Generate Fake Data: We use Python's `Faker` library to simulate user click data.
+2. Use Kafka: The generated data is sent to a Kafka topic.
+3. Create a Flask Server: Our Flask server consumes the data from the Kafka topic and provides it via an HTTP endpoint.
+4. Update Dashboard: A JavaScript front-end fetches the data from the endpoint and updates a table in real-time.
+
+## Run the Project
+
